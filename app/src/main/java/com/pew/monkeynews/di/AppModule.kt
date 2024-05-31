@@ -2,6 +2,7 @@ package com.pew.monkeynews.di
 
 import com.pew.monkeynews.network.AuthInterceptor
 import com.pew.monkeynews.network.NewsApi
+import com.pew.monkeynews.repository.NewsRepository
 import com.pew.monkeynews.utils.Constants
 import dagger.Module
 import dagger.Provides
@@ -25,6 +26,10 @@ object AppModule {
 
     @Singleton
     @Provides
+    fun provideNewsRepository(api: NewsApi) = NewsRepository(api)
+
+    @Singleton
+    @Provides
     fun provideNewsApi(okHttpClient: OkHttpClient): NewsApi {
         return Retrofit.Builder()
             .client(okHttpClient)
@@ -33,7 +38,6 @@ object AppModule {
             .build()
             .create(NewsApi::class.java)
     }
-
 
 
 }
