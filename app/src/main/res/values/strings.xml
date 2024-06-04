@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Monkey News</string>
+    <string name="monkey_news">Monkey News</string>
+    <string name="news_image">News Image</string>
+    <string name="keyboard_arrow_down">Keyboard Arrow Down</string>
 </resources>

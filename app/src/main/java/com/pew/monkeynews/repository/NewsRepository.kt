@@ -18,8 +18,10 @@ class NewsRepository @Inject constructor(private val newsApi: NewsApi) {
     suspend fun getAllNews(): DataOrException<NewsSource,Boolean,java.lang.Exception> {
         try {
             dataOrException.isloding = true
-            dataOrException.data = newsApi.getNews("in").body()
+            dataOrException.data = newsApi.getNews("in",70).body()
             if (dataOrException.data.toString().isNotEmpty()) dataOrException.isloding = false
+
+
         } catch (exception: Exception) {
             dataOrException.e = exception
             Log.d("Exc", "getAllNews : ${dataOrException.e!!.localizedMessage}")

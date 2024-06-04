@@ -20,6 +20,7 @@ import javax.inject.Inject
 class NewsViewModel @Inject constructor(private val newsRepository: NewsRepository): ViewModel() {
     val data: MutableState<DataOrException<NewsSource,Boolean,Exception>> =
         mutableStateOf(DataOrException(null,true,Exception("")))
+
     init {
         getAllNews()
     }
@@ -28,6 +29,7 @@ class NewsViewModel @Inject constructor(private val newsRepository: NewsReposito
             data.value.isloding = true
             data.value = newsRepository.getAllNews()
             if (data.value.data.toString().isNotEmpty()) data.value.isloding = false
+
         }
     }
 

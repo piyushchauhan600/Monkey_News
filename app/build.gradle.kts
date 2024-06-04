@@ -48,6 +48,7 @@ android {
 
 
     compileOptions {
+        isCoreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
@@ -60,7 +61,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.13"
+        kotlinCompilerExtensionVersion = "1.5.14"
     }
     packaging {
         resources {
@@ -80,6 +81,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.generativeai)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -100,16 +103,16 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.1")
+    //Google Fonts Provider
+    implementation("androidx.compose.ui:ui-text-google-fonts:1.6.7")
+    // Coil Library
+    implementation("io.coil-kt:coil-compose:2.6.0")
+   //Desuggaring Core Library
+    //noinspection UseTomlInstead
+  coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
 
 }
 //ARGUMENTS
 kapt {
     correctErrorTypes = true
-    arguments {
-        arg("dagger.fastInit", "enabled")
-        arg("dagger.hilt.android.internal.disableAndroidSuperclassValidation", "true")
-        arg("dagger.hilt.android.internal.projectType", "APP")
-        arg("dagger.hilt.internal.useAggregatingRootProcessor", "true")
-        arg("kapt.kotlin.generated", "${buildDir}/generated/source/kaptKotlin")
-    }
 }
