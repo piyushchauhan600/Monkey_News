@@ -29,6 +29,7 @@ class NewsViewModel @Inject constructor(private val newsRepository: NewsReposito
             data.value.isloding = true
             data.value = newsRepository.getAllNews()
             if (data.value.data.toString().isNotEmpty()) data.value.isloding = false
+            Log.d("@@@@@",data.value.data?.articles.toString())
 
         }
     }

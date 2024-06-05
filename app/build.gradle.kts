@@ -71,6 +71,8 @@ android {
 }
 
 dependencies {
+    val nav_version = "2.7.7"
+
 
 
     implementation(libs.androidx.core.ktx)
@@ -110,6 +112,8 @@ dependencies {
    //Desuggaring Core Library
     //noinspection UseTomlInstead
   coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
+  //Navigation Library
+    implementation("androidx.navigation:navigation-compose:$nav_version")
 
 }
 //ARGUMENTS

@@ -3,6 +3,7 @@ package com.pew.monkeynews.navigation
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.runtime.Composable
+import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -28,7 +29,7 @@ fun NewsNavigation(newsViewModel: NewsViewModel) {
         ))
         {
             val key = it.arguments?.getString("key")
-            newsViewModel.data.value.data?.articles?.let { it1 -> DetailsScreen(it1,key) }
+            newsViewModel.data.value.data?.articles?.let { it1 -> DetailsScreen(it1,key,navController) }
         }
     }
 }
