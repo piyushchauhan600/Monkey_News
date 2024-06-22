@@ -5,17 +5,17 @@ MonkeyNews is a simple and user-friendly app that provides daily, up-to-date new
 ## Screenshots
 
 <div align="center">
-     <p style="font-size:30px;"><b><big>Home Screen</big></b></p>
+     <p style="font-size:30dp;"><b><big>Home Screen</big></b></p>
     <img src="https://github.com/piyushchauhan600/Monkey_News/assets/170570912/de1fcd3b-6b38-4e88-8afa-b0e0163e8056"  />
 </div>
 
 <div align="center">
-        <p style="font-size:30px;"><b><big>UI</big></b></p>
+        <p style="font-size:30dp;"><b><big>UI</big></b></p>
     <img src="https://github.com/piyushchauhan600/Monkey_News/assets/170570912/fe0f8ca0-1ef2-4b44-9a35-eded796cd831" />
 </div>
 
 <div align="center">
-       <p style="font-size:30px;"><b><big>Webview</big></b></p>
+       <p style="font-size:30dp;"><b><big>Webview</big></b></p>
     <img src="https://github.com/piyushchauhan600/Monkey_News/assets/170570912/7e89b2f0-998d-454f-867a-031c4d1fa965"  />
 </div>
 
