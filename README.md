@@ -7,8 +7,11 @@ MonkeyNews is a simple and user-friendly app that provides daily, up-to-date new
 ### Home Screen
 ![MonkeyNews Home](https://drive.google.com/file/d/1V6PRqg_UP9f5Z3GB6LG5QYa22tWMIYiQ/view?usp=drive_link)
 
-### Article View
-![MonkeyNews Article](https://drive.google.com/file/d/1nooIb9JGx1IhSWhQz_ybVb_a9uk9Vw7K/view?usp=sharing)
+### Ui [webview](https://github.com/piyushchauhan600/Monkey_News/assets/170570912/10b192e7-ba4b-4015-955c-1fa5374dbb1f)
+![normal image ui](https://github.com/piyushchauhan600/Monkey_News/assets/170570912/b914b53f-c793-4c75-8b2b-bdfef69380f8)
+![file](https://github.com/piyushchauhan600/Monkey_News/assets/170570912/cea5f792-7d15-40f1-91c9-f8f247558b2a)
+
+
 
 ### Webview
 ![MonkeyNews Webview](https://drive.google.com/file/d/1SGsd1idfHtLClAsjH8f-IFGeYDeBKl49/view?usp=drive_link)
