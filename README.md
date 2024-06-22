@@ -4,16 +4,20 @@ MonkeyNews is a simple and user-friendly app that provides daily, up-to-date new
 
 ## Screenshots
 
-### Home Screen
-![normal image ui](https://github.com/piyushchauhan600/Monkey_News/assets/170570912/de1fcd3b-6b38-4e88-8afa-b0e0163e8056)
+<div align="center">
+    <img src="https://github.com/piyushchauhan600/Monkey_News/assets/170570912/de1fcd3b-6b38-4e88-8afa-b0e0163e8056" alt="Home Screen" />
+    <p><b>Home Screen</b></p>
+</div>
 
+<div align="center">
+    <img src="https://github.com/piyushchauhan600/Monkey_News/assets/170570912/fe0f8ca0-1ef2-4b44-9a35-eded796cd831" alt="UI" />
+    <p><b>UI</b></p>
+</div>
 
-### Ui
-![file](https://github.com/piyushchauhan600/Monkey_News/assets/170570912/fe0f8ca0-1ef2-4b44-9a35-eded796cd831)
-
-
-### Webview
-![webview](https://github.com/piyushchauhan600/Monkey_News/assets/170570912/7e89b2f0-998d-454f-867a-031c4d1fa965)
+<div align="center">
+    <img src="https://github.com/piyushchauhan600/Monkey_News/assets/170570912/7e89b2f0-998d-454f-867a-031c4d1fa965" alt="Webview" />
+    <p><b>Webview</b></p>
+</div>
 
 ## Description
 
@@ -33,7 +37,6 @@ To install MonkeyNews on your Android device, follow these steps:
     - Download the APK file from the [release page](https://github.com/piyushchauhan600/Monkey_News/releases/tag/v1.0.0).
     - Open the APK file on your device to start the installation process.
     - Follow the on-screen instructions to install the app.
-
 
 ## Usage
 
@@ -70,4 +73,3 @@ We welcome contributions to enhance the MonkeyNews app. To contribute:
 ---
 
 Feel free to customize this README.md file as needed to better suit your app and its unique features.
-Simple news app for daily up to date news
