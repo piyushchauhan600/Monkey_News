@@ -8,7 +8,7 @@ MonkeyNews is a simple and user-friendly app that provides daily, up-to-date new
 ![MonkeyNews Home](https://drive.google.com/file/d/1V6PRqg_UP9f5Z3GB6LG5QYa22tWMIYiQ/view?usp=drive_link)
 
 ### Article View
-![MonkeyNews Article](https://drive.google.com/file/d/1nooIb9JGx1IhSWhQz_ybVb_a9uk9Vw7K/view?usp=drive_link)
+![MonkeyNews Article](https://drive.google.com/file/d/1nooIb9JGx1IhSWhQz_ybVb_a9uk9Vw7K/view?usp=sharing)
 
 ### Webview
 ![MonkeyNews Webview](https://drive.google.com/file/d/1SGsd1idfHtLClAsjH8f-IFGeYDeBKl49/view?usp=drive_link)
