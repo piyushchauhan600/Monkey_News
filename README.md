@@ -72,4 +72,3 @@ We welcome contributions to enhance the MonkeyNews app. To contribute:
 
 ---
 
-Feel free to customize this README.md file as needed to better suit your app and its unique features.
