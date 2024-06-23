@@ -71,4 +71,5 @@ We welcome contributions to enhance the MonkeyNews app. To contribute:
 6. Create a pull request.
 
 ---
-## [Licenses] LICENSES
+## License
+[MIT License](LICENSE)
